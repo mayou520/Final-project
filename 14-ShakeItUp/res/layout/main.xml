@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textColor="#ffff0000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:textColor="#ff00ff00" />
+
+    <TextView
+        android:id="@+id/xbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X Value" />
+
+    <TextView
+        android:id="@+id/ybox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Value" />
+
+    <TextView
+        android:id="@+id/zbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Value" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orientation"
+        android:textColor="#ff00ff00" />
+
+    <TextView
+        android:id="@+id/xboxo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X Value" />
+
+    <TextView
+        android:id="@+id/yboxo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Value" />
+
+    <TextView
+        android:id="@+id/zboxo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Value" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textColor="#ff00ff00" />
+
+    <TextView
+        android:id="@+id/xboxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temp Value" />
+
+</LinearLayout>
